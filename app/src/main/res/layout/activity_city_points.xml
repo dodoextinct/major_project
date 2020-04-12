@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CityPoints"
+    android:orientation="vertical"
+    android:background="@drawable/back">
+
+    <FrameLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:color/transparent"
+        android:elevation="20dp"
+        android:id="@+id/nit"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="NIT"
+            android:textSize="10sp"
+            android:elevation="16dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="40dp">
+        <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:color/transparent"
+            android:elevation="20dp"
+            android:id="@+id/ama"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Amapara"
+            android:textSize="10sp"
+            android:elevation="16dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_marginLeft="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:color/transparent"
+            android:elevation="20dp"
+            android:id="@+id/jai"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Jaistambh"
+            android:textSize="10sp"
+            android:elevation="16dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@android:color/transparent"
+            android:elevation="20dp"
+            android:id="@+id/gha"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Ghadi Chowk"
+            android:textSize="10sp"
+            android:elevation="16dp"
+            android:textColor="@android:color/white"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background = "#17202a"
+    >
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:backgroundTint="#fff"
+        android:foreground="@drawable/locs"
+        android:id="@+id/city"
+        android:elevation="10dp"/>
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_marginTop="100dp"
+        android:elevation="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/route"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:foreground="@drawable/road"
+        android:backgroundTint="#fff"/>
+
+</LinearLayout>
